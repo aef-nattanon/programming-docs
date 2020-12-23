@@ -8,4 +8,5 @@
 ## ​👨🏻‍🦰 Ruby on Rails​ <a id="ruby-on-rails"></a>
 
 * [​🐤 การใช้งาน Rails::Engine เบื้องต้น](ruby-on-rails/rails-engine.md)
+* [🐌 มาใช้ Devise ใน Ruby on Rails ทำ Authentication กันเถอะ](ruby-on-rails/devise-ruby-on-rails-authentication.md)
 
