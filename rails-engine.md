@@ -99,7 +99,7 @@ $ rails s
 
 **เย้!! ใช้งานได้ เท่านี้ ถ้า project ใหน อยากใช้ articles ก็ mount Blorgh::Engine ได้เลย**
 
-### มีเพิ่มเติ่มอีกนิต ถ้าหา เราต้องการดัดแปลง Model ใน engine ก็มีด้วยกัน 2 วิธี ซึ่งอยู่ในเรื่อง [Improving engine functionality](https://guides.rubyonrails.org/engines.html#improving-engine-functionality) <a id="328c"></a>
+#### มีเพิ่มเติ่มอีกนิต ถ้าหา เราต้องการดัดแปลง Model ใน engine ก็มีด้วยกัน 2 วิธี ซึ่งอยู่ในเรื่อง [Improving engine functionality](https://guides.rubyonrails.org/engines.html#improving-engine-functionality)
 
 ลองมาทำกันดู กันสักนิตเริ่มที่ไป config engine ให้ overide ใน `unicorn/blorgh/lib/blorgh/engine.rb path`
 
