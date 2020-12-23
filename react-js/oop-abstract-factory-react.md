@@ -78,14 +78,14 @@ export default AbstractFactoryMyStatus;
 
 ![Status A&#x200C;](https://gblobscdn.gitbook.com/assets%2F-MP8SO7JaQ7RmtwrvNjd%2F-MP8Xf_vnt9K7iJVco_D%2F-MP8ZGrmOeGEOdfJIq2O%2F1_RP9pBMiUafUAeow1W3OVnw.png?alt=media&token=1f72fe6e-ae98-43db-9148-4aba819ff369)
 
-#### **เมื่อ status เท่ากับ A**‌
+### **เมื่อ status เท่ากับ A**‌
 
 * กดปุ่ม test 1 จะแสดง log "is A1**"**
 * กดปุ่ม test 2 จะแสดง log "is A2"
 
 ![Status B&#x200C;](https://gblobscdn.gitbook.com/assets%2F-MP8SO7JaQ7RmtwrvNjd%2F-MP8Xf_vnt9K7iJVco_D%2F-MP8ZYEBJxmYEbOvYvay%2F1_ywPWt0N1JOm5OBe6Bbj7hg.png?alt=media&token=41d8f71f-cbb3-4dbe-b6d9-455ea53b02d5)
 
-#### **เมื่อ status เท่ากับ B**‌
+### **เมื่อ status เท่ากับ B**‌
 
 * กดปุ่ม test 1 จะแสดง log "is B1"
 * กดปุ่ม test 2 จะแสดง log "is B2"
