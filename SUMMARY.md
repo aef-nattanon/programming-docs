@@ -11,5 +11,5 @@
 
 * [🐤 การใช้งาน Rails::Engine เบื้องต้น](ruby-on-rails/rails-engine.md)
 * [🐌 มาใช้ Devise ใน Ruby on Rails ทำ Authentication กันเถอะ](ruby-on-rails/devise-ruby-on-rails-authentication.md)
-* [🐝 มาใช้ Rails + Devise + Rolify + Pundit แบบขอสั้นๆกัน](ruby-on-rails/rails-+-devise-+-rolify-+-pundit.md)
+* [🐝 มาใช้ Rails + Devise + Rolify + Pundit แบบขอสั้นๆ](ruby-on-rails/rails-+-devise-+-rolify-+-pundit.md)
 

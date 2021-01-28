@@ -1,4 +1,4 @@
-# 🐝 มาใช้ Rails + Devise + Rolify + Pundit แบบขอสั้นๆกัน
+# 🐝 มาใช้ Rails + Devise + Rolify + Pundit แบบขอสั้นๆ
 
 ![](https://cdn-images-1.medium.com/max/1600/1*US12UCC_3AwoIDBn7MFv7Q.jpeg)
 
@@ -6,7 +6,7 @@
 
 * [Devise](https://github.com/heartcombo/devise) ใช้ในการทำเรื่อง authentication หรือ user นั้นเอง
 * [Rolify](https://github.com/RolifyCommunity/rolify) ใช้ทำ Roles ในการ authentication นั้นเอง
-* [Pandit](https://github.com/varvet/pundit) ใช้ทำ authorization การเข้าถึงหรือใช้งานส่วนต่าง
+* [Pandit](https://github.com/varvet/pundit) ใช้ทำ authorization การเข้าถึงหรือใช้งานส่วนต่างๆ
 
 เพื่อไม่ให้เสียเวลาเราก็มาเริ่มเลยดีกว่า
 
@@ -154,7 +154,7 @@ open http://localhost:3000/
 
 ### **Authorization ⚙️**
 
-มาต่อที่ [Pandit](https://github.com/varvet/pundit) ใช้ทำ authorization การเข้าถึงหรือใช้งานส่วนต่างกันเรื่อง
+มาต่อที่ [Pandit](https://github.com/varvet/pundit) ใช้ทำ authorization การเข้าถึงหรือใช้งานส่วนต่างๆ
 
 ```bash
 rails g pundit:install
