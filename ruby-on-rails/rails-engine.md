@@ -1,3 +1,7 @@
+---
+description: 'Rails::Engine'
+---
+
 # 🐤 การใช้งาน Rails::Engine เบื้องต้น
 
 [อ้างอิง Getting Started with Engines](https://guides.rubyonrails.org/engines.html)
