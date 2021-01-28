@@ -10,7 +10,7 @@
 
 เพื่อไม่ให้เสียเวลาเราก็มาเริ่มเลยดีกว่า
 
-**มาสร้าง Project กัน 🌱**
+### **มาสร้าง Project กัน 🌱**
 
 ```bash
 rails new post-example
@@ -32,7 +32,7 @@ gem 'rolify'
 bundle install
 ```
 
-**Authentication 👨‍✈️**
+### **Authentication 👨‍✈️**
 
 ต่อมาเรามาสร้าง User Model ด้วย [Devise](https://github.com/heartcombo/devise) ไว้เพื่อ authentication กัน โดยอันดับเเรกเราต้อง install เจ้าตัว [Devise](https://github.com/heartcombo/devise) มาก่อนด้วย
 
@@ -76,7 +76,7 @@ rails db:migrate
 
 ![&#xE23;&#xE2D;&#xE14;&#xE44;&#xE1B;&#xE22;&#xE31;&#xE07;&#xE43;&#xE0A;&#xE49;&#xE07;&#xE32;&#xE19;&#xE44;&#xE14;&#xE49;&#xE2D;&#xE22;&#xE39;&#xE48; &#x1F923;](https://cdn-images-1.medium.com/max/1600/1*A_n2PnRGt2Ju0tly953Aqg.png)
 
-**Post 📃**
+### **Post 📃**
 
 เมื่อ ทำเรื่อง authentication เสร็จเราก็มาต่อกันที่ตัว Post Model ก่อนต่อครับ โดยทำการสร้าง เเล้ว `references` ไปยังตัว User Model ของเราด้วย
 
@@ -104,7 +104,7 @@ end
 ```
 {% endcode %}
 
-**สร้าง User กัน**
+### **สร้าง User กัน👨‍🏭**
 
 ด้วยเราจะสร้าง 2 Role คือ user และ admin โดยไปที่ `./db/seeds.rb`เล้วใส่คำสั่งต่อไปนี้เพื่อสร้าง user ทั้ง 2
 
@@ -129,7 +129,7 @@ end
 rails db:seed
 ```
 
-**ลอง Test Login**
+### **ลอง Test Login 🔌**
 
 เริ่มเเรกเรามา สั่ง run web เราก่อน
 
@@ -152,7 +152,7 @@ open http://localhost:3000/
 
 ![&#xE40;&#xE02;&#xE49;&#xE32;&#xE44;&#xE14;&#xE49;&#xE17;&#xE31;&#xE49;&#xE07; 2 User &#xE17;&#xE31;&#xE49;&#xE07; admin &#xE41;&#xE25;&#xE30; user](https://cdn-images-1.medium.com/max/1600/1*S9DgP0A-V0LAOP07kqbUcg.png)
 
-**Authorization**
+### **Authorization ⚙️**
 
 มาต่อที่ [Pandit](https://github.com/varvet/pundit) ใช้ทำ authorization การเข้าถึงหรือใช้งานส่วนต่างกันเรื่อง
 
@@ -371,5 +371,5 @@ end
 
 ![&#xE17;&#xE31;&#xE49;&#xE07; user &#xE41;&#xE25;&#xE30; admin &#xE2A;&#xE32;&#xE21;&#xE32;&#xE23;&#xE16;&#xE40;&#xE40;&#xE01;&#xE49;&#xE43;&#xE02;&#xE44;&#xE14;&#xE49;](https://cdn-images-1.medium.com/max/1600/1*zClB-5w4OOuZ16--nzXLew.png)
 
-Code ตัวอย่างข้างต้น: [https://github.com/aef-nattanon/post-example](https://github.com/aef-nattanon/post-example)
+🏍 Code ตัวอย่างข้างต้น: [https://github.com/aef-nattanon/post-example](https://github.com/aef-nattanon/post-example)
 
