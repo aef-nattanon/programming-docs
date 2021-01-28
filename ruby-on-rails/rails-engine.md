@@ -1,5 +1,5 @@
 ---
-description: 'Rails::Engine'
+description: 'Rails::Engine ⚙️'
 ---
 
 # 🐤 การใช้งาน Rails::Engine เบื้องต้น
